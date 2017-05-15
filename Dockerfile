@@ -1,4 +1,4 @@
-FROM php:5.5
+FROM php:5.6
 
 RUN apt-get update -yqq
 RUN apt-get install openssh-client git unzip ansible zlib1g-dev wget libfreetype6-dev libjpeg62-turbo-dev libmcrypt-dev libpng12-dev libcurl4-gnutls-dev libxml2-dev -yqq
